@@ -21,11 +21,10 @@ body {
 
 /* Header styling */
 header {
-    background: url('header-image.jpg') no-repeat center center/cover;
-    height: 50vh;
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding-top: 100px;
+    padding: 50px 0;
 }
 
 header h1 {
@@ -38,9 +37,9 @@ header p {
 
 /* Navigation styling */
 nav {
-    background: #333;
+    background: #444;
     color: #fff;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -82,12 +81,6 @@ section h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.service img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
 /* Footer styling */
 footer {
     background: #333;
@@ -111,7 +104,7 @@ footer p {
 /* Responsive design */
 @media (max-width: 768px) {
     header {
-        height: 30vh;
+        padding: 30px 0;
     }
 
     header h1 {
@@ -127,4 +120,3 @@ footer p {
         margin: 10px 0;
     }
 }
-
